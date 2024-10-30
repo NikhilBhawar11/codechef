@@ -1,0 +1,9 @@
+class Main
+{
+	public static void main (String[] args) 
+	{
+		char[] word = "Ocygen".toCharArray();
+        word[1] = 'x';
+        System.out.println(word);
+	}
+}
